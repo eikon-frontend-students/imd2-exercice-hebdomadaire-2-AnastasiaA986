@@ -3,12 +3,30 @@
   margin: 0;
   padding: 0;
 }
-
-a {
-  color: inherit;
+body {
+  background-color: #e9e9e9;
+  font-family: "Inter", sans-serif;
 }
-
-img,
-video {
-  display: block;
+header {
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  width: 30px;
+}
+nav {
+  display: flex;
+  padding: 20px 30px;
+  gap: 20px;
+  background-color: white;
+  border-radius: 32px;
+}
+nav a {
+  font-size: 20px;
+  font-weight: 700;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
 }

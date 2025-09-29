@@ -30,3 +30,25 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
 }
+.language-communication {
+  display: flex;
+  flex-direction: row;
+}
+.language,
+.communication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+}
+.language {
+  font-size: 20px;
+  font-weight: 700;
+}
+.communication img {
+  width: 24px;
+  height: 24px;
+}
